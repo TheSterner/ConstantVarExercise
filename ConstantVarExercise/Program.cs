@@ -10,6 +10,12 @@ namespace ConstantVarExercise
 	{
 		static void Main(string[] args)
 		{
+
+			var fName = "Blake";
+
+			const string greeting = "Hello, ";
+			Console.WriteLine(greeting + fName + ".");
+			Console.ReadLine();
 		}
 	}
 }
